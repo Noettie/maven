@@ -1,1 +1,32 @@
+# Maven
 
+## Maven is a build tool used to build a project
+
+Source code: code written by developers in human readable format
+
+A group of executable file (e.g skpye.exe) packaged together is a software build. 
+An exe file holds bit-code files which are group of compiled files
+Maven compiles the source code and turns it into human readable format
+The outcome of a build tool is an artefact
+A build tool not only compiles the source but packages it into a software .
+
+Developers shoudl write both the source code and the build script. 
+For Maven, the build script is written in pom.xml. 
+The build script should include: dependency, plugins, compiler
+Dependecies are source code from ither developers that are incorporated into the software build.
+
+## Maven Lifecycle
+
+Default stage
+1. Validate
+2. Compile
+3.Test
+4.Package
+5. Verify
+6. Install
+7. Deploy
+
+Repositories in Maven: Local, Remote(organizational level github
+eg Deloitte)  and Central (mvnrepositiries.com and is public)
+
+Deployment: Copying an application from one server to another AND unfolding the application 
